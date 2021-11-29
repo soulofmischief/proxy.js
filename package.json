@@ -1,0 +1,20 @@
+{
+  "name": "@soulofmischief/proxy.js",
+  "version": "0.3.2",
+  "description": "A collection of useful JavaScript Proxy utilities.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.1.0",
+  "repository": "https://github.com/soulofmischief/proxy.js",
+  "scripts": {
+    "lint": "eslint . --config ./.eslintrc.cjs --fix",
+    "prepublish": "yarn test",
+    "test": "yarn lint && ospec"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "ospec": "^4.1.1"
+  }
+}
